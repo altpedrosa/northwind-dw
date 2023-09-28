@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: erp_northwind
+    description: Fonte do SAP de vendas
+    schema: erp_northwind
+    tables:
+      - name: products  # enabled
+      - name: categories  # enabled
+      - name: suppliers  # enabled
