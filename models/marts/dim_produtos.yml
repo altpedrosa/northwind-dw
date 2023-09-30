@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: dim_produtos
+    description: Dimensão com informações dos produtos na northwind
+    columns:
+      - name: pk_produto
+        description: PK de produtos
+        tests:
+          - unique
+          - not_null
+      - name: id_produto
+        description: Completar
+      - name: id_fornecedor
+        description: Completar
+      - name: id_categoria
+        description: Completar
+      - name: nome_produto
+        description: Completar
+      - name: quantidade_por_unidade
+        description: Completar
+      - name: preco_por_unidade
+        description: Completar
+      - name: unidades_em_estoque
+        description: Completar
+      - name: unidades_por_ordem
+        description: Completar
+      - name: nivel_abestecimento
+        description: Completar
+      - name: is_discontinuado
+        description: Completar
+      - name: nome_categoria
+        description: Completar
+      - name: descricao_categoria
+        description: Completar
+      - name: nome_fornecedor
+        description: Completar
+      - name: contato_fornecedor
+        description: Completar
+      - name: contato_cargo
+        description: Completar
+      - name: endereco_fornecedor
+        description: Completar
+      - name: cidade_fornecedor
+        description: Completar
+      - name: regiao_fornecedor
+        description: Completar
+      - name: pais_fornecedor
+        description: Completar
+      - name: cep_fornecedor        
+        description: Completar
