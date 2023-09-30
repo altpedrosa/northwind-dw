@@ -7,6 +7,8 @@ sources:
     tables:
       - name: products  # enabled
         description: Tabela de produtos
+      - name: suppliers  # enabled
+        description: Tabela de fornecedores
       - name: categories  # enabled
         description: Tabela de categorias de produtos
         columns:
